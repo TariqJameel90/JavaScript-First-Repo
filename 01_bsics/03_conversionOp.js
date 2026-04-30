@@ -1,5 +1,5 @@
-let score = "33ss"
-//console.log(typeof score);
+let score = "33"
+console.log(typeof score);
 //console.log(typeof (score));
 
 let valueInNumber = Number(score)    // we convert string in Number 
