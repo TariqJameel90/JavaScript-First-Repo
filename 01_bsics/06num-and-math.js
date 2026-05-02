@@ -32,6 +32,8 @@ console.log(Math.round(3.6));
 console.log(Math.ceil(3.4));
 console.log(Math.floor(3.8));
 
+console.log(Math.min(3,5,5,5,,9,4,8));
+
 
 
 
