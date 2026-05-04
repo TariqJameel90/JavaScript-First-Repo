@@ -25,13 +25,21 @@ myArr.shift(); // is sa ham first ko remove kar skty hain
 
 const newarr =  myArr.join()  // ya hmary array ko biend bhi karta hy or is ka type tbdeel kar deta hy String main convert kar data hy.
 
-console.log(myArr);
+//console.log(myArr);
 
-console.log(newarr);//Output:  1,2,3,4,5      ya hmary array ko biend bhi karta hy or is ka type tbdeel kar deta hy String main convert kar data hy.
+//console.log(newarr);//Output:  1,2,3,4,5      ya hmary array ko biend bhi karta hy or is ka type tbdeel kar deta hy String main convert kar data hy.
 
 // slice  , splice
 
 console.log("A ", myArr);
+const mnew1 = myArr.slice(1,3)
+console.log("B ", mnew1);
 
+
+
+
+const myn2 = myArr.splice(1,3);
+console.log("C ", myArr);
+console.log(myn2);
 
 
