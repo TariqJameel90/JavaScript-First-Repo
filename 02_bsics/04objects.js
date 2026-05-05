@@ -62,6 +62,16 @@ const userEmail = user[1].email;
 
 
 
+//  Ab ham object ko destructure kasy karty hain is ko dakhty hain.
+
+const course = {
+    courseName : "js in urdu",
+    courseInstructor : "tariq jameel",
+    coursePrice : 999
+}
+
+course.courseInstructor
+
 
 
 
