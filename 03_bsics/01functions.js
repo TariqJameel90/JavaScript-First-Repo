@@ -60,7 +60,41 @@ function loginUser(usernaem = "Guest") {
 // )
 // );
 
-console.log((loginUser()
-)
-);
+// console.log((loginUser()
+// )
+// );
 
+
+// +++++++++++++++++++  Shopping Cart Example ++++++++++++++++++++
+
+function calculateCartPrice(val1, val2,...num) { // num ka sath ham ...num bhi use kar sakte hain, jisse hum multiple numbers ko ek array ke form mein pass kar sakte hain
+    return [val1, val2, ...num];
+}
+
+// console.log(calculateCartPrice(20, 30, 40, 50));
+
+
+const users = {
+    name: "Tariq",
+    age: 25,
+
+}
+
+function handelObject(anyobj){
+    console.log(`User Name is ${anyobj.name} and age is ${anyobj.age}`);
+    
+}
+
+// handelObject(users);
+// handelObject({
+    // name: "Tariq",
+    // age: 25
+    
+
+// });
+
+const myArr = [1, 2, 3, 4, 5];
+
+function handelArray(anyArr){
+    return anyArr[4];
+} 
