@@ -62,6 +62,11 @@ const userEmail = user[1].email;
 
 
 
+
+
+//++++++++++++++++++++++++++++  Destructuring Objects  ++++++++++++++++++++++++++++
+
+
 //  Ab ham object ko destructure kasy karty hain is ko dakhty hain.
 
 const course = {
@@ -70,8 +75,30 @@ const course = {
     coursePrice : 999
 }
 
-course.courseInstructor
+// course.courseInstructor      // is tarah ham course object ke andar courseInstructor property ko access kr skty hain.  lakin ya ham nahi karin ga 
 
+
+// is ki jga ham 1 or santax istimal krengy 
+
+const {courseInstructor: ustad} = course;  
+console.log(ustad);
+
+
+// ++++++++++++ API 
+//++++++++ InJson +++++++++++
+
+// {
+//     "name" : "tariq",
+//     "email" : "tariq@example.com",
+//     "password" : "123456"
+// }
+
+[
+    {},
+    {},
+    {} 
+    
+]
 
 
 
