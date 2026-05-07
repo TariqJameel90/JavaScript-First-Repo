@@ -96,5 +96,7 @@ function handelObject(anyobj){
 const myArr = [1, 2, 3, 4, 5];
 
 function handelArray(anyArr){
-    return anyArr[4];
-} 
+    return anyArr[3];
+}  
+
+console.log(handelArray(myArr));
